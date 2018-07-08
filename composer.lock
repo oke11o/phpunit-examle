@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0035df52a90a909a0ae9750a5f00f652",
+    "content-hash": "790cebbc69273cd715a0cf34ab784d7a",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -2317,16 +2317,16 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v3.3.10",
+            "version": "v4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
-                "reference": "6e40d1c8bc4037edf3852c0b29fdd2923c4e2133"
+                "reference": "c7f28cbf2df4e9deed7fc376ca4f146eaa5afc8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/6e40d1c8bc4037edf3852c0b29fdd2923c4e2133",
-                "reference": "6e40d1c8bc4037edf3852c0b29fdd2923c4e2133",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/c7f28cbf2df4e9deed7fc376ca4f146eaa5afc8a",
+                "reference": "c7f28cbf2df4e9deed7fc376ca4f146eaa5afc8a",
                 "shasum": ""
             },
             "require": {
@@ -2345,7 +2345,11 @@
             "type": "symfony-bridge",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.3-dev"
+                    "dev-master": "4.1-dev"
+                },
+                "thanks": {
+                    "name": "phpunit/phpunit",
+                    "url": "https://github.com/sebastianbergmann/phpunit"
                 }
             },
             "autoload": {
@@ -2375,7 +2379,7 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2017-10-02T06:54:00+00:00"
+            "time": "2018-06-11T12:56:28+00:00"
         }
     ],
     "aliases": [],
