@@ -9,3 +9,22 @@
 
 TDD - test first
 
+
+### 3. TDD & Unit, Integration & Functional Tests
+
+Немного теории.
+
+Unit - изолированные. Один тест тестирует только 1 класс
+
+Integration - почти как Unit но используют реально подключение к базе, например.
+
+Functional - в браузере
+
+Когда тестировать? Когда меня пугает этот функционал.
+
+TDD:
+1. Create the test
+2. Write just enough code for the test pass
+3. Refactor
+
+Вообщем, когда добавляешь новую функцию, лучше это делать по TDD.
