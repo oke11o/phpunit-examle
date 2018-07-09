@@ -50,3 +50,8 @@ setUpBeforeClass() and tearDownAfterClass before/after testClass
 onNotSuccessfulTest() !
 
 Замечание: markTestSkipped - в собственном коде обычно не используют, но юзают в библиотеках, например, в ядре симфони
+
+
+### 7. Data Providers!
+
+В ключах @dataProvider можно указывать название data_set'a.
