@@ -67,3 +67,10 @@ onNotSuccessfulTest() !
 
 Для сервисов нужны моки.
 Для моделей - нет.
+
+
+### 10. Testing Exceptions
+
+TestCase::expectException() надо вызывать до того как будет выкинуто само исключение.
+
+Но проще использовать аннотацию @expectException.
