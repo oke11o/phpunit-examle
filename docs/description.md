@@ -39,3 +39,14 @@ TDD:
 ### 5. Factory Testing
 
 Все то же TDD на практике
+
+
+### 6. Hooks: setUp, tearDown & Skipping Tests
+
+setUp() and tearDown() before/after each test
+
+setUpBeforeClass() and tearDownAfterClass before/after testClass
+
+onNotSuccessfulTest() !
+
+Замечание: markTestSkipped - в собственном коде обычно не используют, но юзают в библиотеках, например, в ядре симфони
