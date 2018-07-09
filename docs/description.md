@@ -55,3 +55,9 @@ onNotSuccessfulTest() !
 ### 7. Data Providers!
 
 В ключах @dataProvider можно указывать название data_set'a.
+
+
+### 8. Coding, Adding Features, Refactoring
+
+Второй пункт TDD. Чтобы проходили тесты.
+Третий пункт уже по пройденным тестам - рефакторинг.
