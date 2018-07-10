@@ -74,3 +74,10 @@ onNotSuccessfulTest() !
 TestCase::expectException() надо вызывать до того как будет выкинуто само исключение.
 
 Но проще использовать аннотацию @expectException.
+
+
+### 11. Exceptions Part 2: Adding Fence Security
+
+vendor/bin/simple-phpunit --filter testItDoesNotAllowToAddDinosToUnsecureEnclosures
+
+Все по шагам TDD
