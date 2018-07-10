@@ -91,3 +91,10 @@ vendor/bin/simple-phpunit --filter testItDoesNotAllowToAddDinosToUnsecureEnclosu
 ### 13. Mocks & Test Doubles
 
 В UnitTest надо тестировать только логику класса, не надо в них тестировать логику других классов. Сейчас фабрика некак не считает длину. Поэтому надо удалить тесты связанные с длинной.
+
+
+### 14. Mocks: Control the Return Value
+
+Тут мы заюзали просто willReturn() на моке. То есть он всегда будет отдавать одно значение.
+ 
+Если надо сымитировать зависимость от входных параметров можно заюзать willReturnValueMap().
