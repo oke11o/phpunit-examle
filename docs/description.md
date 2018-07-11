@@ -98,3 +98,10 @@ vendor/bin/simple-phpunit --filter testItDoesNotAllowToAddDinosToUnsecureEnclosu
 Тут мы заюзали просто willReturn() на моке. То есть он всегда будет отдавать одно значение.
  
 Если надо сымитировать зависимость от входных параметров можно заюзать willReturnValueMap().
+
+
+### 15. Mocks: expects() Assert Method is Called Correctly
+
+Добавили ожидаемые параметры вызова метода мока.
+
+Так же у тестов есть методы anything(), atLeastOne(), callback()
