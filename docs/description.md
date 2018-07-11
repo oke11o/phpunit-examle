@@ -117,3 +117,9 @@ vendor/bin/simple-phpunit --filter testItDoesNotAllowToAddDinosToUnsecureEnclosu
 Если проверить dump'ом возвращаемое значение, то окажется Mock_Dinosaur_d0cb0669. Это благодаря хинтам.
 
 Подведем итоги. Если нужен сервис - мокаем. Если модель - new().
+
+
+### 18. Mocking with Prophecy
+
+Для Prophecy есть отличные плагины PhpStorm "PHP Toolbox" and "PHPUnit Enhancement".
+
