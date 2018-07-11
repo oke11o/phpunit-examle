@@ -110,3 +110,10 @@ vendor/bin/simple-phpunit --filter testItDoesNotAllowToAddDinosToUnsecureEnclosu
 ### 16. Full Mock Example
 
 Используем моки в конструкторах сервисов.
+
+
+### 17. Full Mock Example: the Sequel
+
+Если проверить dump'ом возвращаемое значение, то окажется Mock_Dinosaur_d0cb0669. Это благодаря хинтам.
+
+Подведем итоги. Если нужен сервис - мокаем. Если модель - new().
