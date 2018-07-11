@@ -22,8 +22,7 @@ class EnclosureBuilderService
     public function __construct(
         EntityManagerInterface $entityManager,
         DinosaurFactory $dinosaurFactory
-    )
-    {
+    ) {
         $this->entityManager = $entityManager;
         $this->dinosaurFactory = $dinosaurFactory;
     }
@@ -31,8 +30,7 @@ class EnclosureBuilderService
     public function buildEnclosure(
         int $numberOfSecuritySystems = 1,
         int $numberOfDinosaurs = 3
-    ): Enclosure
-    {
+    ): Enclosure {
         $enclosure = new Enclosure();
 
         $this->addSecuritySystems($numberOfSecuritySystems, $enclosure);
@@ -54,11 +52,12 @@ class EnclosureBuilderService
 
     private function addDinosaurs(int $numberOfDinosaurs, Enclosure $enclosure)
     {
-        $length = array_rand(['small', 'large', 'huge']);
-        $diet = array_rand(['herbivore', 'carnivorous']);
-        $specification = "{$length} {$diet} dinosaur";
-        $dinosaur = $this->dinosaurFactory->growFromSpecification($specification);
-
-        $enclosure->addDinosaur($dinosaur);
+        for ($i = 0; $i < $numberOfDinosaurs; $i++) {
+            $length = array_rand(['small', 'large', 'huge']);
+            $diet = array_rand(['herbivore', 'carnivorous']);
+            $specification = "{$length} {$diet} dinosaur";
+            $dinosaur = $this->dinosaurFactory->growFromSpecification($specification);
+            $enclosure->addDinosaur($dinosaur);
+        }
     }
 }

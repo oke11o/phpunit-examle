@@ -105,3 +105,8 @@ vendor/bin/simple-phpunit --filter testItDoesNotAllowToAddDinosToUnsecureEnclosu
 Добавили ожидаемые параметры вызова метода мока.
 
 Так же у тестов есть методы anything(), atLeastOne(), callback()
+
+
+### 16. Full Mock Example
+
+Используем моки в конструкторах сервисов.
