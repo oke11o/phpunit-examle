@@ -123,3 +123,16 @@ vendor/bin/simple-phpunit --filter testItDoesNotAllowToAddDinosToUnsecureEnclosu
 
 Для Prophecy есть отличные плагины PhpStorm "PHP Toolbox" and "PHPUnit Enhancement".
 
+
+### 19. The Important CLI Options & phpunit.xml.dist
+
+phpunit можно запускать с различными флагами. Как мы делали --filter. 
+Так же интересный флаг - --debug.
+
+Или даже например, запуск конкретного set'a из dataProvider'a.
+```
+./vendor/bin/phpunit --filter 'testItGrowsADinosaurFromASpecification #1' --debug
+```
+
+Можно добавить testsuite в phpunit.xml, а потом запускать только его
+`./vendor/bin/phpunit --testsuite entities --debug`
