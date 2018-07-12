@@ -156,3 +156,12 @@ services:
 И делаем публичные алиасы для приватных сервисов. Добавляем префикс test.
 
 Инжектим EntityManager и проверяем кол-во в репозитории.
+
+
+### 21. Clearing the Database
+
+Переопределяем `doctrine.dbal`. В данном случае на sqlite.
+
+В setUp() добавим метод для truncate. Для начала напишем его вручную.
+
+Но лучше поставить `composer require doctrine/data-fixtures --dev` и использовать `Doctrine\Common\DataFixtures\Purger\ORMPurger::purge()`
