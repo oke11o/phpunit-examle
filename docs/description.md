@@ -218,3 +218,12 @@ services:
 ### 26. Loading Fixtures References
 
 Ну собственно просто берем Reference из Fixture.
+
+
+### 27. Testing a Form Submit
+
+Важный момент `$client->followRedirects();`
+
+Работаем почти как с jQuery. Получаем форму и устанавливаем в нее значения.
+
+Работаем по TDD. Сперв тест. Потом код
