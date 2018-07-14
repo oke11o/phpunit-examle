@@ -249,3 +249,5 @@ services:
 
 ### 29. CircleCI Artifacts
 
+Статья про behat and circleCI - https://knpuniversity.com/blog/circle-ci-behat-screenshots
+
