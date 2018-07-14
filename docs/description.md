@@ -245,3 +245,7 @@ services:
 - Если не собирается. Пробуем изменить docker image.
 
 Смотрим больше конфигов в документации к CyrcleCI.
+
+
+### 29. CircleCI Artifacts
+
