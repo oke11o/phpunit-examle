@@ -1,4 +1,16 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
+    <table class="table-enclosures">
+        <tbody>
+        {% for enclosure in enclosures %}
+            <tr id="enclosure-{{ enclosure.id }}">
+                <td>Enclosure #{{ enclosure.id }}</td>
+                <td>
+                    Contains <strong>{{ enclosure.dinosaurCount }}</strong> dinosaur(s)
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
 {% endblock %}
