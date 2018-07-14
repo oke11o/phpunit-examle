@@ -227,3 +227,17 @@ services:
 Работаем почти как с jQuery. Получаем форму и устанавливаем в нее значения.
 
 Работаем по TDD. Сперв тест. Потом код
+
+
+### 28. Continuous Integration: Activate the Robots
+
+Никто не запускает тесты!!!
+
+Есть Travis CI или Circle CI.
+
+Пробую заюзать Circle ci. https://circleci.com/dashboard .
+
+- Авторизуюсь через github.
+- Выбирают Add projects и там выбираю свой проект. Setup project.
+- Копирую дефорлтный конфиг
+- Сменить `phpunit` на `./vendor/bin/phpunit`
