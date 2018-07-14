@@ -213,3 +213,8 @@ services:
 Или использовать Trait.
 
 Если используюм sqlite для тестовой базы - LiipTestBundle дает пару преимуществ.
+
+
+### 26. Loading Fixtures References
+
+Ну собственно просто берем Reference из Fixture.
