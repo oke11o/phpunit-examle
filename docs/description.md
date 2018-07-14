@@ -243,3 +243,5 @@ services:
 - Сменить `phpunit` на `./vendor/bin/phpunit`
 - И в CircleCi dashboard кликаем Start Building.
 - Если не собирается. Пробуем изменить docker image.
+
+Смотрим больше конфигов в документации к CyrcleCI.
